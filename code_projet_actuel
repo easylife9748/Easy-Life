@@ -12,127 +12,172 @@ def myfun(total, recvd, ratio, rate, eta):
 mlist=[]
 loopme=1
 r = sr.Recognizer()
+
 cmd=1
-while(cmd==1):
-    with sr.Microphone() as source:
-        print "A moment of silence"
-        r.adjust_for_ambient_noise(source, duration = 1)
-        print("Say something!")
-        audio = r.listen(source)
-        print("Trying to recognize audio")
-
-    try:
-        
-        t=r.recognize_google(audio)
-        print "You just said " +t
-      
-        if(t.find("open")!=-1):                                                   
-            le=t.find("open")+len("open")+1
-            t=t[le:]
-            if(t=="text" or t=="text"):
-        mon_fichier = open("/home/v/bin/a", "r")
-        mon_fichier
-              contenu = mon_fichier.read()
-        os.system("espeak \"it's_open\"")
-        print(contenu)
-        os.system("espeak \"what_you_went_to_change\"")
-
-        cmd1=1
-        while(cmd1==1):
-                with sr.Microphone() as source:
-                       print "A moment of silence"
-                    r.adjust_for_ambient_noise(source, duration = 1)
-                    print("Say something!")
-                    audio = r.listen(source)
-                    print("Trying to recognize audio")
-            try:        
-                 t=r.recognize_google(audio)
-                print "You just said for change " +t
-    
-                print("what_you_went_to_change")
-        
-                #audio = r.listen(source)
-                #print("Trying to recognize audio")
-                #b=r.recognize_google(audio)
-                #if(b.find("yes")!=-1):                                             
-                 #   print "hani bech nbadaletha beli t9oulou ",t
-                #audio = r.listen(source)
-                mon_fichier = open("/home/v/bin/a", "w")
-        
-                #print("Trying to recognize audio")
-                #b=r.recognize_google(audio)
-                mon_fichier.write("" +t)    
-                mon_fichier = open("/home/v/bin/a", "r")
-                mon_fichier
-                os.system("espeak \"____________________________________________here_the_new_text\"")
-                print("here the new text")
-                      contenu = mon_fichier.read()    
-                print(contenu)    
-
-                os.system("espeak \"ok_mester_alaa\"")    
-                cmd1=0                        
-                cmd2=0
-                while(cmd2==1):
-                        with sr.Microphone() as source:
-                               print "A moment of silence"
-                            r.adjust_for_ambient_noise(source, duration = 1)
-                            print("Say something!")
-                            audio = r.listen(source)
-                            print("Trying to recognize audio")
-                    try:
-                                    
-                         t=r.recognize_google(audio)
-
-                        if(t.find("bye")!=-1):                                                  
-                            le=t.find("bye")+len("bye")+1
-                            t=t[le:]
-                            if(t=="baby" or t=="baby"):
-                            
-                            os.system("espeak \"bye_mester_alaa\"")
-                            cmd2=0
-    
-                            print("byeeeee <3 <3 <3")
-                #audio = r.listen(source)
-                #print("Trying to recognize audio")
-                #b=r.recognize_google(audio)
-                #if(b.find("yes")!=-1):                                             
-                 #   print "hani bech nbadaletha beli t9oulou ",t
-                #audio = r.listen(source)
-                        mon_fichier = open("/home/v/bin/a", "w")
-        
-                #print("Trying to recognize audio")
-                #b=r.recognize_google(audio)
-                        
-                    except sr.UnknownValueError:
-                        print("Google Speech Recognition could not understand audio")
-                        loopme=1
-                    except sr.RequestError as e:
-                        print("Could not request results from Google Speech Recognition service; {0}".format(e))
+cmd0=1
+cmdk=1
+while(cmdk==1):
+	while(cmd0==1):
+	    with sr.Microphone() as source:
+		print "A moment of silence"
+		r.adjust_for_ambient_noise(source, duration = 1)
+		print("Say something!")
+		audio = r.listen(source)
+		print("Trying to recognize audio")
+	    try:
+		
+		t=r.recognize_google(audio)
+		print "You just said " +t
+	      
+		if(t.find("hello")!=-1):                                                   
+	 
+		
+			os.system("espeak -ven+f3 \"hello_alaa\"")
+		
+			os.system("espeak -ven+f3 \"i_hope_you_are_fine\"")
+			cmd0=0
+			cmd=1
+	    except sr.UnknownValueError:
+		print("Google Speech Recognition could not understand audio")
+		os.system("espeak \"please_repeat_i_did_not_undestand\"")
+		loopme=1
+	    except sr.RequestError as e:
+		print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
 
-            except sr.UnknownValueError:
-                print("Google Speech Recognition could not understand audio")
-                loopme=1
-            except sr.RequestError as e:
-                print("Could not request results from Google Speech Recognition service; {0}".format(e))    
-                
-        
-    t=r.recognize_google(audio)
-        print "You just said " +t        
-    if(t.find("bye")!=-1):                                                  
-        le=t.find("bye")+len("bye")+1
-        t=t[le:]
-        if(t=="baby" or t=="baby"):
-                        
-            os.system("espeak \"bye_mister_alaa\"")
-        
-    
-            print("byeeeee <3 <3 <3")
-            cmd=0    
 
-            
-    except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
-        loopme=1
-    except sr.RequestError as e:
-        print("Could not request results from Google Speech Recognition service; {0}".format(e))
+	while(cmd==1):
+	 
+	    with sr.Microphone() as source:
+		print "A moment of silence"
+		r.adjust_for_ambient_noise(source, duration = 1)
+		print("Say something!")
+		audio = r.listen(source)
+		print("Trying to recognize audio")
+
+	    try:
+		
+		t=r.recognize_google(audio)
+		print "You just said " +t
+	      
+		if(t.find("open")!=-1):                                                   
+		    le=t.find("open")+len("open")+1
+		    t=t[le:]
+		    if(t=="text" or t=="text"):
+			mon_fichier = open("/home/v/bin/a", "r")
+			mon_fichier
+	      		contenu = mon_fichier.read()
+			os.system("espeak \"it's_open\"")
+			print(contenu)
+			os.system("espeak \"what_you_went_to_change\"")
+
+			
+
+			cmd1=1
+			while(cmd1==1):
+	    			with sr.Microphone() as source:
+	       				print "A moment of silence"
+					r.adjust_for_ambient_noise(source, duration = 1)
+					print("Say something!")
+					audio = r.listen(source)
+					print("Trying to recognize audio")
+				try:		
+			 		t=r.recognize_google(audio)
+					print "You just said for change " +t
+	
+					print("what_you_went_to_change")
+		
+					#audio = r.listen(source)
+					#print("Trying to recognize audio")
+					#b=r.recognize_google(audio)
+					#if(b.find("yes")!=-1):                                             
+					 #   print "hani bech nbadaletha beli t9oulou ",t
+					#audio = r.listen(source)
+					mon_fichier = open("/home/v/bin/a", "w")
+		
+					#print("Trying to recognize audio")
+					#b=r.recognize_google(audio)
+					mon_fichier.write("" +t)	
+					mon_fichier = open("/home/v/bin/a", "r")
+					mon_fichier
+					os.system("espeak \"____________________________________________here_the_new_text\"")
+					print("here the new text")
+			      		contenu = mon_fichier.read()	
+					print(contenu)	
+
+					os.system("espeak \"ok_mester_alaa\"")	
+					cmd1=0						
+					cmd2=0
+					while(cmd2==1):
+	    					with sr.Microphone() as source:
+	       						print "A moment of silence"
+							r.adjust_for_ambient_noise(source, duration = 1)
+							print("Say something!")
+							audio = r.listen(source)
+							print("Trying to recognize audio")
+						try:
+									
+			 				t=r.recognize_google(audio)
+
+							if(t.find("bye")!=-1):                                                  
+							    le=t.find("bye")+len("bye")+1
+							    t=t[le:]
+							    if(t=="baby" or t=="baby"):
+							
+								os.system("espeak \"bye_mester_alaa\"")
+								cmd2=0
+	
+								print("byeeeee <3 <3 <3")
+					#audio = r.listen(source)
+					#print("Trying to recognize audio")
+					#b=r.recognize_google(audio)
+					#if(b.find("yes")!=-1):                                             
+					 #   print "hani bech nbadaletha beli t9oulou ",t
+					#audio = r.listen(source)
+							mon_fichier = open("/home/v/bin/a", "w")
+		
+					#print("Trying to recognize audio")
+					#b=r.recognize_google(audio)
+
+
+						except sr.UnknownValueError:
+							print("Google Speech Recognition could not understand audio")
+							loopme=1
+						except sr.RequestError as e:
+							print("Could not request results from Google Speech Recognition service; {0}".format(e))
+
+
+				except sr.UnknownValueError:
+					print("Google Speech Recognition could not understand audio")
+					loopme=1
+				except sr.RequestError as e:
+					print("Could not request results from Google Speech Recognition service; {0}".format(e))
+		if(t.find("20")!=-1):                                                   
+			os.system("espeak \"case one\"")
+		if(t.find("21")!=-1):                                                   
+			os.system("espeak \"case one\"")
+		if(t.find("22")!=-1):                                                   
+			os.system("espeak \"case one\"")	
+				
+		
+		t=r.recognize_google(audio)
+		print "You just said " +t		
+		if(t.find("bye")!=-1):                                                  
+		
+						
+				os.system("espeak \"bye_mester_alaa\"")
+		
+	
+				print("byeeeee <3 <3 <3")
+				
+				cmd0=1
+				cmd=1
+				cmd1=1	
+				cmd=0
+
+		    
+	    except sr.UnknownValueError:
+		print("Google Speech Recognition could not understand audio")
+		loopme=1
+	    except sr.RequestError as e:
+		print("Could not request results from Google Speech Recognition service; {0}".format(e))
