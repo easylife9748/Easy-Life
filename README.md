@@ -45,6 +45,7 @@
     	Favoriser la vie sociale des seniors => Proposer des sorties, des visites…
     	Améliorer le suivi médical des personnes âgées et leurs processus de soin => Partager des données relatives à leur santé avec des     professionnels de la santé et des aidants.
  ===> Notre application s'intéresse au côté sanitaire et social de la personne âgée: Elle fait des rappels des médicaments à prendre,         les prochains rendez-vous avec le médecin, des événements familiaux ou sociaux via des hauts parleurs/enceintes installés dans le       domicile sans devoir manipuler son smartphone/tablette/pc ce qui facilite l'interaction avec la technologie.
+ 
 - Olga: Téléphone avec un seul bouton (Ecran):
     	100% vocalisé.
     	Adressé aux : 
@@ -55,6 +56,14 @@
     	Demander heure, date et météo.
     	Paramétrer un réveil, des alarmes ou un coucou qui sonne toutes les heures p.e..
 ===> Notre application se focalise aussi sur le côté relationnel avec d'autres personnes en recevant des mails sans devoir utiliser un        téléphone, messagerie, carte sim, réseaux téléphoniques...Le plus de notre application c'est qu'on se tient informé de la réception      d'un mail et de son contenu (aussi l'expéditeur et la date/heure) vocalement et que l'on peut répondre vocalement aussi.
+
+- Lunettes connectées et reconnaissance vocale aux services des sourds:
+    	Une élégante combinaison de deux technologies pour améliorer le quotidien des personnes souffrant de déficience auditive.
+    	Les lunettes LTCCS sortent les malentendants de l'isolement :
+      Avec l'essor des technologies, les personnes malentendantes ont désormais accès à des lunettes spécifiques qui ont la capacité de       proposer des sous-titres. 
+    	Un concept qui fonctionne même dans un environnement bruyant :
+      Grâce à cet objet connecté, toutes les conversations sont retransmises sur l'écran, ce qui permet aux sourds de suivre les               discours sans qu'ils soient pénalisés par ce problème auditif. 
+===> Notre application peut transmettre le discours de l'interlocuteur par un mail, là où la personne souffrant d'un problème auditif        peut suivre momentanément la conversation en lisant directement sur un écran ou sur smartphone.
 
 
 
