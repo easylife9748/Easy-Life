@@ -34,3 +34,28 @@
 - Python
 - OS: LINUX
 - API's: Google Calender, Weather
+
+# Etats de l'art:
+- Alfred => Assistant personnel interactif pour les personnes âgées:
+  Assistant mobile (smartphone, tablette…)
+    	Pour ne pas perdre l’autonomie des personnes âgées -> Faciliter la vie quotidienne.
+    	Renforcer l’indépendance et l’intégration sociale des personnes âgées.
+    	Réagit aux commandes vocales => Faciliter la réalisation des tâches quotidiennes.
+    	Prévenir le déclin cognitif lié à l’âge et maintenir les personnes âgées dans une bonne forme physique => Serious games.
+    	Favoriser la vie sociale des seniors => Proposer des sorties, des visites…
+    	Améliorer le suivi médical des personnes âgées et leurs processus de soin => Partager des données relatives à leur santé avec des     professionnels de la santé et des aidants.
+ ===> Notre application s'intéresse au côté sanitaire et social de la personne âgée: Elle fait des rappels des médicaments à prendre,         les prochains rendez-vous avec le médecin, des événements familiaux ou sociaux via des hauts parleurs/enceintes installés dans le       domicile sans devoir manipuler son smartphone/tablette/pc ce qui facilite l'interaction avec la technologie.
+- Olga: Téléphone avec un seul bouton (Ecran):
+    	100% vocalisé.
+    	Adressé aux : 
+    	Personnes avec handicap visuel.
+    	Problèmes avec les claviers d’un téléphone.
+    	Personnes âgées.
+    	Utiliser toutes les fonctions d’un smartphone normal avec des commandes vocaux : Ajouter contact , appeler, raccrocher, répondre,       envoyer SMS/recevoir/consulter.
+    	Demander heure, date et météo.
+    	Paramétrer un réveil, des alarmes ou un coucou qui sonne toutes les heures p.e..
+===> Notre application se focalise aussi sur le côté relationnel avec d'autres personnes en recevant des mails sans devoir utiliser un        téléphone, messagerie, carte sim, réseaux téléphoniques...Le plus de notre application c'est qu'on se tient informé de la réception      d'un mail et de son contenu (aussi l'expéditeur et la date/heure) vocalement et que l'on peut répondre vocalement aussi.
+
+
+
+
