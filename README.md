@@ -1,5 +1,7 @@
 # Easy-Life
-Automatiser et faciliter la vie quotidienne dans les domiciles.
+- Les seniors désirent passer plus de temps chez eux mais biensûr sans perdre de l'autonomie, ne pas se sentir seuls (avoir l'impression qu'ils sont bien entourés par leurs familles).
+- Une maison intelligente peut aider à réaliser les voeux de nos seniors en sécurisant leurs domiciles, en suivant leurs états de santé et en maintenant du lien social avec leurs proches.
+=======>Vieillir en pleine autonomie, sécurité et santé, c'est possible de nos jours.
 
 # Membres du groupe:
 - Dalal DEHMANI
