@@ -5,6 +5,16 @@
     -> Le deuxième type est: les processus fils qui fonctionnent en parallèle tels que: Musique, date et weather.
 # Les "-":
     -> Pour l'instant, à partir du début de la commande vocale, on a deux secondes pour que celle-ci soit prise en compte ("exécuté"). 
-       Après ces deux seconces, le script commence à analyser et reconnaître la commande lancée.
+       Après ces deux secondes, le script commence à analyser et reconnaître la commande lancée.
+    -> Si on avait pas une contrainte de temps pour le développement, on aurait pu observer le temps d'enregistrement de la commande 
+       vocale ou bien concevoir un bouton nous permettant de marquer la fin de la commande pour passer à l'étape suivante de reconnaissance.
+       
+# Les développements "+" possibles:
+    -> On pourrait rajouter d'autres fonctionnalités en développant d'autres scripts en parallèle comme par exemple:
+       - Fonctionnement MP3.
+       - Chat vocal.
+       - Des applications domotiques (Eclairage, gestion des objets électroniques/électriques...).
+       
+       
     
     
