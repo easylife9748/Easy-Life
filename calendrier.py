@@ -73,40 +73,94 @@ def main():
         start = event['start'].get('dateTime', event['start'].get('date'))
         #print(start, event['summary'])
         t=str(event['start'].get('dateTime'))
-        
-        print( event['start'].get('dateTime'))
-        #for i in range(4):
-        try:
-            y=t[0]+t[1]+t[2]+t[3]
-            print( y),
-            m=t[5]+t[6]
-            print( m),
-            d=t[8]+t[9]
-            print(d),
-        except IndexError:
-            pass
-        try:
-            h=t[11]+t[12]
-            print( h),
-            min=t[14]+t[15]
-            print( min),
+        eve=str(event['summary'])
+        if eve!="medical" :  
+            print( event['start'].get('dateTime'))
+            
+            print(eve)
+            
+            try:
+                    eve1=str(event['description'])
+                    print (eve1)
+            except  KeyError:
+                    pass
+          
+                    #for i in range(4):
+            try:
+                y=t[0]+t[1]+t[2]+t[3]
+                print( y),
+                m=t[5]+t[6]
+                print( m),
+                d=t[8]+t[9]
+                print(d),
+            except IndexError:
+                pass
+            try:
+                h=t[11]+t[12]
+                print( h),
+                min=t[14]+t[15]
+                print( min),
 
-        except IndexError:
-            pass
+            except IndexError:
+                pass
+        
 
         
 ##        mon_fichier = open("/home/pi/speak.txt", "w")
-##        mon_fichier.write(  str(event['start']))
+##        mon_fichier.write( d)
 ##        mon_fichier = open("/home/pi/speak.txt", "r")
 ##        os.system("espeak -ven+m3 \"upcomping event at \"")
-##        os.system("espeak -v en -f speak.txt " )
 ##        
+##        os.system("espeak -v en -f speak.txt " )
+##        os.system("espeak -ven+m3 \"slash\"")
 ##        
 ##        mon_fichier = open("/home/pi/speak.txt", "w")
-##        mon_fichier.write(  str(event['summary']))
+##        mon_fichier.write( m)
 ##        mon_fichier = open("/home/pi/speak.txt", "r")
-##        os.system("espeak -ven+m3 \"the description is\"")
+##        
+##        
 ##        os.system("espeak -v en -f speak.txt " )
+##        os.system("espeak -ven+m3 \"slash\"")
+##        
+##                
+##        mon_fichier = open("/home/pi/speak.txt", "w")
+##        mon_fichier.write( y)
+##        mon_fichier = open("/home/pi/speak.txt", "r")
+##        
+##        
+##        os.system("espeak -v en -f speak.txt " )
+##        
+##        os.system("espeak -ven+m3 \"at\"")               
+##        mon_fichier = open("/home/pi/speak.txt", "w")
+##        mon_fichier.write( h)
+##        mon_fichier = open("/home/pi/speak.txt", "r")
+##        
+##        
+##        os.system("espeak -v en -f speak.txt " )
+##        
+##        os.system("espeak -ven+m3 \"and\"")
+##        mon_fichier = open("/home/pi/speak.txt", "w")
+##        mon_fichier.write( m)
+##        mon_fichier = open("/home/pi/speak.txt", "r")
+##        os.system("espeak -v en -f speak.txt " )
+##        os.system("espeak -ven+m3 \"minute\"")
+##        
+##            
+##        os.system("espeak -ven+m3 \"description of event\"")
+##        mon_fichier = open("/home/pi/speak.txt", "w")
+##        mon_fichier.write( eve)
+##        mon_fichier = open("/home/pi/speak.txt", "r")
+##        os.system("espeak -v en -f speak.txt " )
+##        
+##        
+##    
+####        
+####        
+####        mon_fichier = open("/home/pi/speak.txt", "w")
+####        mon_fichier.write(  str(event['summary']))
+####        mon_fichier = open("/home/pi/speak.txt", "r")
+####        os.system("espeak -ven+m3 \"the description is\"")
+####        os.system("espeak -v en -f speak.txt " )
 
 
 if __name__ == '__main__':
