@@ -15,6 +15,15 @@
        - Chat vocal.
        - Des applications domotiques (Eclairage, gestion des objets électroniques/électriques...).
        
+   
+# Pour simuler le bon fonctionnement:
+-> On a créé 5 événements: trois sociaux et 2 médicaux + Une alerte qui a plus de priorité.
+-> Les commandes vocaux:
+   - Hello Maria: Une fois, on prononce le nom Maria, le déroulement de l'application commence avec la synthèse: Hello my dear i hope you
+     are fine.
+   - Thank you Maria: Une fois le mot thank est prononcé, on a un retour de not at all my dear, l'application sera arrêtée après.
+   - 
+       
        
     
     
