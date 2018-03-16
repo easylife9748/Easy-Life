@@ -22,7 +22,14 @@
    - Hello Maria: Une fois, on prononce le nom Maria, le déroulement de l'application commence avec la synthèse: Hello my dear i hope you
      are fine.
    - Thank you Maria: Une fois le mot thank est prononcé, on a un retour de not at all my dear, l'application sera arrêtée après.
-   - 
+   - Give me the date or time: Si il entend le mot "date" ou "time", il nous donne la date et le temps vocalement.
+   - Alerte: Avant trente minutes de l'heure de l'événement, une alerte est déclenchée pour nous le rappeler.
+   - Give me the weather report: Quand notre application entend le mot "weather", un rapport de météo est retourné vocalement.
+   - Appointment event please: En entendant le mot "event", la liste d'événements programmée est retournée vocalement.
+   - Open music: La musique est déclenchée.
+   - Close music: La musique est arrêtée.
+   - Email: Entendre le mail reçu.
+   - Voice assistance: Envoyer un mail.
        
        
     
