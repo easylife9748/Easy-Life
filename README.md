@@ -33,7 +33,7 @@
 # Environnement logiciel
 - Python
 - OS: LINUX
-- API's: Google Calender, Weather
+- API's: Google Calender, Weather, Google Reconnaissance vocale, Gmail, Espeak: Sortie vocale.
 
 # Etats de l'art:
 - Alfred => Assistant personnel interactif pour les personnes âgées:
