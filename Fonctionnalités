@@ -1,1 +1,7 @@
-
+# Algorithme de fonctionnement:
+- Il y'a deux types de fonctions:
+    -> Ce qu'on appelle bloquantes qui fonctionnent en série. Nos fonctions principales sont: Calendrier, Rendez-vous médicaux,sociaux...,Emails vocaux.
+    -> Le deuxième type est: les processus fils qui fonctionnent en parallèle tels que: Musique, date et weather.
+# Les "-":
+    -> 
+    
