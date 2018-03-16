@@ -1,7 +1,10 @@
 # Algorithme de fonctionnement:
 - Il y'a deux types de fonctions:
-    -> Ce qu'on appelle bloquantes qui fonctionnent en série. Nos fonctions principales sont: Calendrier, Rendez-vous médicaux,sociaux...,Emails vocaux.
+    -> Ce qu'on appelle bloquantes qui fonctionnent en série. Nos fonctions principales sont: Calendrier, Rendez-vous médicaux,sociaux...,
+       Emails vocaux.
     -> Le deuxième type est: les processus fils qui fonctionnent en parallèle tels que: Musique, date et weather.
 # Les "-":
-    -> 
+    -> Pour l'instant, à partir du début de la commande vocale, on a deux secondes pour que celle-ci soit prise en compte ("exécuté"). 
+       Après ces deux seconces, le script commence à analyser et reconnaître la commande lancée.
+    
     
